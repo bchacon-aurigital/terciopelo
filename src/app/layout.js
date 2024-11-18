@@ -5,7 +5,7 @@ export const metadata = {
   title: "Terciopelo Beauty Studio",
   description: "Tu experiencia de belleza personalizada. Corte de cabello, tintes, tratamientos, maquillaje y peinado profesional que se adaptan a tu estilo único.",
   icons: {
-    icon: "/Images/logo.png", 
+    icon: "/Images/favicon.ico", 
   },
 };
 
@@ -14,8 +14,8 @@ export default function RootLayout({ children }) {
     <html lang="es">
   
       <Head>
-    <link rel="icon" href="/Images/logo.png" type="image/png" />
-        <link rel="canonical" href="https://terciopelo.calendarhit.com/" />
+      <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+      <link rel="canonical" href="https://terciopelo.calendarhit.com/" />
         <meta name="author" content="Nicolle Pitty" />
         <meta property="og:title" content="Terciopelo Beauty Studio" />
         <meta
