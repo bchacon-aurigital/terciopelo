@@ -1,4 +1,4 @@
-import head from 'next/head';
+import Head from 'next/head';
 import "./globals.css";
 
 export const metadata = {
@@ -12,7 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <head>
+  
+      <Head>
+    <link rel="icon" href="/Images/logo.png" type="image/png" />
         <link rel="canonical" href="https://terciopelo.calendarhit.com/" />
         <meta name="author" content="Nicolle Pitty" />
         <meta property="og:title" content="Terciopelo Beauty Studio" />
@@ -53,7 +55,8 @@ export default function RootLayout({ children }) {
             }),
           }}
         />
-      </head>
+     </Head>
+
       <body className="antialiased">{children}</body>
     </html>
   );
